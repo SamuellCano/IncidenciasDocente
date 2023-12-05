@@ -9,7 +9,7 @@
 let swReg;
 
 if (navigator.serviceWorker) {
-  navigator.serviceWorker.register('/sw.js').then((swRegRes)=>{
+  navigator.serviceWorker.register('./sw.js').then((swRegRes)=>{
     swReg =swRegRes;
     swReg.pushManager.getSubscription().then(verifyNotifications);
   });
