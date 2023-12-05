@@ -30,17 +30,17 @@ const APP_SHELL = [
 ];
 
 const APP_SHELL_INMUTABLE = [
-    '/assets/js/jquery-3.7.1.min.js',
-    '/assets/vendor/bootstrap/css/bootstrap.min.css',
-    '/assets/vendor/bootstrap/js/bootstrap.min.js',
-    '/assets/vendor/bootstrap-icons/bootstrap-icons.min.css',
-    '/assets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff',
-    '/assets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff2',
-    '/assets/vendor/boxicons/fonts/boxicons.eot',
-    '/assets/vendor/boxicons/fonts/boxicons.svg',
-    '/assets/vendor/boxicons/fonts/boxicons.ttf',
-    '/assets/vendor/boxicons/fonts/boxicons.woff',
-    '/assets/vendor/boxicons/fonts/boxicons.woff2',
+    './assets/js/jquery-3.7.1.min.js',
+    './assets/vendor/bootstrap/css/bootstrap.min.css',
+    './assets/vendor/bootstrap/js/bootstrap.min.js',
+    './assets/vendor/bootstrap-icons/bootstrap-icons.min.css',
+    './assets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff',
+    './assets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff2',
+    './assets/vendor/boxicons/fonts/boxicons.eot',
+    './assets/vendor/boxicons/fonts/boxicons.svg',
+    './assets/vendor/boxicons/fonts/boxicons.ttf',
+    './assets/vendor/boxicons/fonts/boxicons.woff',
+    './assets/vendor/boxicons/fonts/boxicons.woff2',
 ];
 
 const clear = (cacheName, items = 50) => {
