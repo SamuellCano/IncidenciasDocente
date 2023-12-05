@@ -1,32 +1,32 @@
 importScripts('https://cdn.jsdelivr.net/npm/pouchdb@8.0.1/dist/pouchdb.min.js');
-importScripts('/assets/js/utils/db-utils.js');
-importScripts('/assets/js/utils/sw-utils.js');
+importScripts('./assets/js/utils/db-utils.js');
+importScripts('./assets/js/utils/sw-utils.js');
 
 const STATIC_CACHE = 'staticv1';
 const INMUTABLE_CACHE = 'inmutablev1';
 const DYNAMIC_CACHE = 'dynamicv1';
 
 const APP_SHELL = [
-    '/',
-    '/index.html',
-    '/assets/img/img-404.png',
-    '/assets/img/not-found.svg',
-    '/assets/img/report.ico',
-    '/assets/img/reports.png',
-    '/assets/js/main.js',
-    '/assets/js/jquery-3.7.1.min.js',
-    '/assets/js/admin/admin.home.controller.js',
-    '/assets/js/admin/admin.users.controller.js',
-    '/assets/js/admin/admin.incidences.controller.js',
-    '/assets/js/auth/signin.js',
-    '/assets/js/axios/axios-intance.js',
-    '/assets/js/toast/toasts.js',
-    '/pages/auth/register.html',
-    '/pages/admin/home.html',
-    '/pages/admin/users.html',
-    '/pages/attendant/home.html',
-    '/pages/docent/home.html',
-    '/pages/docent/incidences.html',
+    './',
+    './index.html',
+    './assets/img/img-404.png',
+    './assets/img/not-found.svg',
+    './assets/img/report.ico',
+    './assets/img/reports.png',
+    './assets/js/main.js',
+    './assets/js/jquery-3.7.1.min.js',
+    './assets/js/admin/admin.home.controller.js',
+    './assets/js/admin/admin.users.controller.js',
+    './assets/js/admin/admin.incidences.controller.js',
+    './assets/js/auth/signin.js',
+    './assets/js/axios/axios-intance.js',
+    './assets/js/toast/toasts.js',
+    './pages/auth/register.html',
+    './pages/admin/home.html',
+    './pages/admin/users.html',
+    './pages/attendant/home.html',
+    './pages/docent/home.html',
+    './pages/docent/incidences.html',
 ];
 
 const APP_SHELL_INMUTABLE = [
